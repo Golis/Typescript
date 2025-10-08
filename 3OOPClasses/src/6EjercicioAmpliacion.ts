@@ -2,12 +2,12 @@
 class Vehiculo {
     marca: string;
     modelo: string;
-    año: number;
+    year: number;
   
-    constructor(marca: string, modelo: string, año: number) {
+    constructor(marca: string, modelo: string, year: number) {
       this.marca = marca;
       this.modelo = modelo;
-      this.año = año;
+      this.year = year;
     }
   
     arrancar(): void {
@@ -23,8 +23,8 @@ class Vehiculo {
   class Coche extends Vehiculo {
     numPuertas: number;
   
-    constructor(marca: string, modelo: string, año: number, numPuertas: number) {
-      super(marca, modelo, año);
+    constructor(marca: string, modelo: string, year: number, numPuertas: number) {
+      super(marca, modelo, year);
       this.numPuertas = numPuertas;
     }
   
@@ -37,8 +37,8 @@ class Vehiculo {
   class Motocicleta extends Vehiculo {
     tipoManillar: string;
   
-    constructor(marca: string, modelo: string, año: number, tipoManillar: string) {
-      super(marca, modelo, año);
+    constructor(marca: string, modelo: string, year: number, tipoManillar: string) {
+      super(marca, modelo, year);
       this.tipoManillar = tipoManillar;
     }
   
